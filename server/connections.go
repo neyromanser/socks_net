@@ -35,7 +35,7 @@ func checkStatus(){
 			if c.Session.IsClosed() && c.IsOnline {
 				c.Close()
 			}else{
-				log.Printf("session active %s:%d (%s) - %t", c.Ip, c.Port, c.Country, c.IsOnline)
+				//log.Printf("session active %s:%d (%s) - %t", c.Ip, c.Port, c.Country, c.IsOnline)
 			}
 		}
 		time.Sleep(time.Second * 5)

@@ -18,7 +18,6 @@ import (
 var proxytout = time.Millisecond * 1000 //timeout for wait magicbytes
 var Sessions []*yamux.Session
 var socksIp string
-var socksPort int
 
 // listen for agents
 func listenForAgents(address string, clients string, agentPassword string) error {
@@ -46,7 +45,6 @@ func listenForAgents(address string, clients string, agentPassword string) error
 		log.Printf("Error converting listen str %s: %v", clients, errc)
 	}
 	socksIp = listenstr[0]
-	socksPort = portnum
 
 	for {
 		conn, err := ln.Accept()
