@@ -2,11 +2,10 @@ package main
 
 import (
 	"log"
-	"github.com/neyromanser/socks_net/helpers"
 )
 
 func main(){
-	config := helpers.GetConfig(".")
+	config := GetConfig("..")
 	agentPassword := config.AgentPassword
 	agentPort := config.AgentPort
 	socksAddress := config.SocksAddress

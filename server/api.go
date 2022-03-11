@@ -6,7 +6,7 @@ import (
 )
 
 func BotOpen(c *gin.Context) {
-	NewBot(c)
+	//NewBot(c)
 	c.JSON(http.StatusOK, gin.H{"status": "ok"})
 }
 
