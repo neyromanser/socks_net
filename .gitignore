@@ -1,0 +1,4 @@
+.idea
+/release/*
+/server/bots.db
+.env
