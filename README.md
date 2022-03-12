@@ -34,7 +34,7 @@ or will use free one from previusly closed connecion
 CONTROL_DOMAIN=https://ruskiyvoenniykorablidinahuy.com  
 - when clien run without server ip flag (or when it lose connection) 
 it will connect to control domain to get ip:port address of a server 
-(andpoint: {CONTROL_DOMAIN}/spoint.html).  
+(endpoint: {CONTROL_DOMAIN}/spoint.html).  
 
 RPC_PORT=8484
 RPC_USER=user
