@@ -28,8 +28,8 @@ AGENT_PORT=:8443
 SOCKS_ADDRESS=127.0.0.1:1080 
 - server local address for socks5 connection. each new agent will open new port (incrementing from selected) or will use free one from previusly closed connecion
 
-CONTROL_DOMAIN=https://ruskiykorablidinahuy.today  
-- when clien run without server ip flag (or when it lose connection) it will connect to control domain to get ip:port address of server 
+CONTROL_DOMAIN=https://ruskiyvoenniykorablidinahuy.com  
+- when clien run without server ip flag (or when it lose connection) it will connect to control domain to get ip:port address of a server 
 (andpoint: {CONTROL_DOMAIN}/spoint.html).  
 
 RPC_PORT=8484
