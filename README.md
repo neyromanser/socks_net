@@ -20,16 +20,20 @@ client and server binary files will be stored in release folder
 copy .env.example to .env  
 ```
 AGENT_PASSWORD=Secret{p}aSSword 
-- password for authenticating new agents (clients who creates reverse socks5 tunnels) 
+- password for authenticating new agents 
+(clients who creates reverse socks5 tunnels) 
 
 AGENT_PORT=:8443 
 - server port on listen for agents connections
 
 SOCKS_ADDRESS=127.0.0.1:1080 
-- server local address for socks5 connection. each new agent will open new port (incrementing from selected) or will use free one from previusly closed connecion
+- server local address for socks5 connection. 
+each new agent will open new port (incrementing from selected) 
+or will use free one from previusly closed connecion
 
 CONTROL_DOMAIN=https://ruskiyvoenniykorablidinahuy.com  
-- when clien run without server ip flag (or when it lose connection) it will connect to control domain to get ip:port address of a server 
+- when clien run without server ip flag (or when it lose connection) 
+it will connect to control domain to get ip:port address of a server 
 (andpoint: {CONTROL_DOMAIN}/spoint.html).  
 
 RPC_PORT=8484
